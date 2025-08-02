@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Shop Up - Premium Mermade Hair Collectie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Popup Shop Up</h1>
+                    <span class="tagline">Premium Haarstyling Collectie</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#products" class="nav-link">Producten</a>
+                    <a href="#about" class="nav-link">Over Ons</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="cart-icon" onclick="toggleCart()">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Transformeer Je Haarstyling Routine</h2>
+                    <p>Ontdek de authentieke Mermade Hair collectie met professionele styling tools ontworpen voor elk haartype. Krijg salon-kwaliteit resultaten thuis.</p>
+                    <div class="discount-banner">
+                        <span class="discount-text">FLASH SALE: 33% KORTING</span>
+                        <span class="discount-subtitle">Beperkte Tijd</span>
+                    </div>
+                    <a href="#products" class="cta-button">Shop Nu</a>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-product-showcase">
+                        <i class="fas fa-magic hero-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Uitgelichte Mermade Hair Collectie</h2>
+            <p class="section-subtitle">Professionele styling tools met innovatieve technologie voor prachtig haar</p>
+            
+            <div class="products-grid">
+                <!-- Infrared Thermal Brush -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/01-Mermade-Hair-Infrared-Thermal-Brush_b73a2e77-9d24-44b6-a267-e90be6894239.png?v=1726813353&width=2048" alt="Mermade Infrared Thermal Brush" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade Infrarood Thermische Borstel</h3>
+                        <div class="product-description">
+                            <p>Revolutionaire infraroodtechnologie ontmoet professionele styling. Deze innovatieve verwarmde ronde borstel levert instant volume, glans en bounce met geavanceerde infrarood lichttechnologie die je haar beschermt tijdens het stylen.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-thermometer-half"></i>
+                                    <span>Warmt op in slechts 60 seconden</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-display"></i>
+                                    <span>LCD temperatuur display</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Keramische constructie met 2 jaar garantie</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-ruler"></i>
+                                    <span>3.2cm barrel perfect voor alle haarlengtes</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€82.99</span>
+                            <span class="sale-price">€55.59</span>
+                            <span class="savings">Bespaar €27.40</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade Infrarood Thermische Borstel', 93.79)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+
+                <!-- Blow Dry Brush Black -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/01-Mermade-Hair-Blow-Dry-Brush-Black_39adb1fe-37c8-46e8-9508-f8a107fdea53.png?v=1726812173&width=2048" alt="Mermade Blow Dry Brush Black" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade Blow Dry Borstel - Zwart</h3>
+                        <div class="product-description">
+                            <p>Professionele blow dry borstel met ionische technologie die negatieve ionen produceert, haarzakjes beschermt terwijl het pluizig haar elimineert en ongelooflijke glans toevoegt. Perfect voor het creëren van volumineus, glad haar met gemak.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-bolt"></i>
+                                    <span>Ionische technologie voor sneller drogen</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-gem"></i>
+                                    <span>Keramische en toermalijn coating</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-heart"></i>
+                                    <span>Geschikt voor alle haartypes</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-hand-holding-heart"></i>
+                                    <span>Ergonomische handgreep voor comfort</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€73.99</span>
+                            <span class="sale-price">€49.57</span>
+                            <span class="savings">Bespaar €24.42</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade Blow Dry Borstel - Zwart', 62.89)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+
+                <!-- Thermal Brush Pink -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/01-Mermade-Hair-Blow-Dry-Brush-Pink_f37a2f5e-4c77-4482-8668-ae489c1a8947.png?v=1736401500&width=2048" alt="Mermade Thermal Brush Rose Pink" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade Thermische Borstel - Roze</h3>
+                        <div class="product-description">
+                            <p>Dezelfde innovatieve infraroodtechnologie in een prachtige roze afwerking. Transformeer je haar direct met deze verwarmde styling borstel die technologie combineert met stijl. Ideaal voor het creëren van langdurige golven en volume.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-magic"></i>
+                                    <span>Infraroodtechnologie voor gezondere styling</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Snelle opwarming in seconden</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-sparkles"></i>
+                                    <span>Creëert instant volume en glans</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-palette"></i>
+                                    <span>Elegante roze design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€82.99</span>
+                            <span class="sale-price">€55.59</span>
+                            <span class="savings">Bespaar €27.40</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade Thermische Borstel - Roze', 62.89)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+
+                <!-- Blow Dry Brush Mini Pro -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/01-Mermade-Hair-32mm-Pro-Waver-Pink_fb92a21a-0f2b-4ab3-93bd-4b40b156e53f.png?v=1726811695&width=2048" alt="Mermade 32mm Pro Waver Pink" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade 25mm 1" Pro Waver</h3>
+                        <div class="product-description">
+                            <p>Professionele 25mm waver ontworpen voor het creëren van perfecte golven in seconden. Langdurige golven met minimale inspanning. Pre-wave modus technologie stelt je in staat om precies te zien waar je de waver plaatst voor consistente resultaten elke keer.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-wave-square"></i>
+                                    <span>Professionele 25mm barrel grootte</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Pre-wave modus voor precisie</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-stopwatch"></i>
+                                    <span>Creëert golven in seconden</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-award"></i>
+                                    <span>Professionele prestaties</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€64.99</span>
+                            <span class="sale-price">€43.54</span>
+                            <span class="savings">Bespaar €21.45</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade 25mm 1\" Pro Waver', 62.89)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+
+                <!-- Styling Brush -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/01-Mermade-Hair-Styling-Brush_bf4f6376-5fc8-4ae7-91a3-076fb5c7846a.png?v=1726814246&width=2048" alt="Mermade Styling Brush" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade Styling Borstel</h3>
+                        <div class="product-description">
+                            <p>Professionele styling borstel gemaakt met hoogwaardige zwijnenharen en nylon pinnen. Perfect voor het creëren van strakke opsteken en pluisvrije stijlen. Zacht voor haar en hoofdhuid, voorkomt haarbreuk terwijl het zorgt voor gladde, klitvrijte resultaten.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-feather-alt"></i>
+                                    <span>Zwijnenharen voor natuurlijke glans</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-hand-holding"></i>
+                                    <span>Ergonomisch handvat design</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Voorkomt haarbreuk</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-star"></i>
+                                    <span>Professionele styling resultaten</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€27.99</span>
+                            <span class="sale-price">€18.75</span>
+                            <span class="savings">Bespaar €9.24</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade Styling Borstel', 15.99)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+
+                <!-- Quick Dry Brush -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/Untitled_design_9.png?v=1744067439&width=1200" alt="Mermade Quick Dry Brush" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade Quick Dry Borstel</h3>
+                        <div class="product-description">
+                            <p>Revolutionaire ontwarrings borstel ontworpen voor nat of droog haar. Vermindert haarbreuk met maximaal 50% terwijl het je föhn routine versnelt. Werkt perfect op krullend, steil, dik of dun haar voor professionele styling resultaten.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-water"></i>
+                                    <span>Perfect voor nat en droog haar</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Vermindert haarbreuk met 50%</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-wind"></i>
+                                    <span>Versnelt föhn tijd</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-universal-access"></i>
+                                    <span>Werkt op alle haartypes</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€18.99</span>
+                            <span class="sale-price">€12.72</span>
+                            <span class="savings">Bespaar €6.27</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade Quick Dry Borstel', 10.39)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+
+                <!-- Mermade Hair Waver Mini Pro -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/01-Mermade-Hair-25mm-Waver-Pink_96dd2725-b5ce-49d7-aff8-b55bf2fc6c7b.png?v=1726809502&width=2048" alt="Mermade Hair Mini Pro Waver Pink" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade Hair Mini Pro Waver</h3>
+                        <div class="product-description">
+                            <p>Compacte en krachtige mini waver voor het creëren van perfecte golven in seconden. Beschikt over langdurige golventechnologie met #mermadehair precisie styling voor moeiteloze, professionele resultaten thuis.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-wave-square"></i>
+                                    <span>Mini barrel voor gedetailleerde golven</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Snelle styling in seconden</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-heart"></i>
+                                    <span>Langdurige golf resultaten</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-star"></i>
+                                    <span>Professioneel mini design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€55.99</span>
+                            <span class="sale-price">€37.51</span>
+                            <span class="savings">Bespaar €18.48</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade Hair Mini Pro Waver', 62.89)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+
+                <!-- Mermade Hair Blow Dry Brush Pro -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/01-Mermade-Hair-Interchangeable-Blow-Dry-Brush-Pink_1.png?v=1730775094&width=2048" alt="Mermade Hair Blow Dry Brush Pro" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade Hair Blow Dry Borstel Pro</h3>
+                        <div class="product-description">
+                            <p>Professionele blow dry borstel met geavanceerde thermische technologie. Beschikt over infraroodtechnologie om haar glad te maken en vorm te geven terwijl droogtijd en hitteschade worden verminderd.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-fire"></i>
+                                    <span>Geavanceerde thermische technologie</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Hitteschade bescherming</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-wind"></i>
+                                    <span>Snellere droog resultaten</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-gem"></i>
+                                    <span>Professionele salon kwaliteit</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€82.99</span>
+                            <span class="sale-price">€55.59</span>
+                            <span class="savings">Bespaar €27.40</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade Hair Blow Dry Borstel Pro', 95.19)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+
+                <!-- Mermade Hair Pro Waver Set -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/01-Mermade-Hair-Double-Waver-Pink_2.png?v=1726814862&width=2048" alt="Mermade Hair Pro Waver Set" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade Hair Pro Waver Set</h3>
+                        <div class="product-description">
+                            <p>Complete professionele waver set met 32mm barrel voor het creëren van prachtige golven. Beschikt over pre-wave modus technologie en langdurige styling voor perfecte resultaten elke keer.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-wave-square"></i>
+                                    <span>32mm professionele barrel</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Pre-wave modus technologie</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Langdurige golf resultaten</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-award"></i>
+                                    <span>Complete professionele set</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€92.99</span>
+                            <span class="sale-price">€62.30</span>
+                            <span class="savings">Bespaar €30.69</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade Hair Pro Waver Set', 60.79)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+
+                <!-- Mermade Hair Complete Collection -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="discount-badge">33% KORTING</div>
+                        <img src="https://mermadehair.com/cdn/shop/files/01-Mermade-Hair-Style-Wand_40764a78-426d-4d36-8998-cd18a4d4cc29.png?v=1726814194&width=2048" alt="Mermade Hair Style Wand" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mermade Hair Complete Collectie</h3>
+                        <div class="product-description">
+                            <p>Ultieme Mermade Hair collectie met meerdere styling tools voor elke haarbehoefte. Transformeer je styling routine met deze uitgebreide professionele set.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-gift"></i>
+                                    <span>Complete styling collectie</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-star"></i>
+                                    <span>Alles-in-één haar oplossing</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-heart"></i>
+                                    <span>Professionele salon resultaten</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-diamond"></i>
+                                    <span>Premium kwaliteit garantie</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="original-price">€139.99</span>
+                            <span class="sale-price">€93.79</span>
+                            <span class="savings">Bespaar €46.20</span>
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mermade Hair Complete Collectie', 93.79)">Toevoegen aan Winkelwagen</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Over Popup Shop Up</h2>
+                    <p>Jouw premium bestemming voor authentieke Mermade Hair styling tools. Wij verzamelen de beste professionele haarstyling apparatuur om je te helpen salon-kwaliteit resultaten te behalen vanuit het comfort van je eigen huis.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-certificate"></i>
+                            <h4>Authentieke Producten</h4>
+                            <p>100% echte Mermade Hair tools met volledige fabrieksgarantie</p>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <h4>Snelle Verzending</h4>
+                            <p>Gratis verzending bij bestellingen boven €69 met meerdere bezorgopties</p>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-heart"></i>
+                            <h4>Klanten Service</h4>
+                            <p>Toegewijd support team om je te helpen de perfecte styling tools te vinden</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-showcase">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Neem Contact Op</h2>
+            <div class="contact-content">
+                <div class="contact-links">
+                    <a href="https://wa.me/message/ZS2DTHEKR77WG1?src=qr" target="_blank" class="contact-link whatsapp-link">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Chat via WhatsApp</span>
+                    </a>
+                    <a href="mailto:dirksurmassie@gmail.com" class="contact-link email-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Stuur een Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Popup Shop Up</h3>
+                    <p>Jouw vertrouwde bron voor authentieke Mermade Hair styling tools en professionele beauty apparatuur.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Snelle Links</h4>
+                    <ul>
+                        <li><a href="#products">Producten</a></li>
+                        <li><a href="#about">Over Ons</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Verzendinfo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Klanten Service</h4>
+                    <ul>
+                        <li><a href="#">Retourneren & Ruilen</a></li>
+                        <li><a href="#">Maatgids</a></li>
+                        <li><a href="#">Veelgestelde Vragen</a></li>
+                        <li><a href="#">Garantie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Nieuwsbrief</h4>
+                    <p>Abonneer voor exclusieve aanbiedingen en haarstyling tips!</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Voer je email in">
+                        <button type="submit">Abonneren</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Popup Shop Up. Alle rechten voorbehouden. | <a href="#">Privacybeleid</a> | <a href="#">Servicevoorwaarden</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple cart functionality
+        let cartCount = 0;
+        const cartCountElement = document.querySelector('.cart-count');
+        const addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
+
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                cartCount++;
+                cartCountElement.textContent = cartCount;
+                
+                // Add visual feedback
+                this.style.background = '#e91e63';
+                this.textContent = 'Toegevoegd!';
+                
+                setTimeout(() => {
+                    this.style.background = '';
+                    this.textContent = 'Toevoegen aan Winkelwagen';
+                }, 1500);
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission
+        document.querySelector('.contact-form form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We\'ll get back to you soon.');
+            this.reset();
+        });
+
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for subscribing to our newsletter!');
+            this.querySelector('input').value = '';
+        });
+    </script>
+</body>
+</html>
